@@ -1,0 +1,438 @@
+[
+    {
+        "quiz": {
+            "id": "001",
+            "title": "Javascript Basics",
+            "exercises": [
+                {
+                    "question": "What is the HTML tag under which one can write the JavaScript code?.",
+                    "answers": [
+                        {
+                            "text": "<javascript>",
+                            "value": 0
+                        },
+                        {
+                            "text": "<scripted>",
+                            "value": 0
+                        },
+                        {
+                            "text": "<script>",
+                            "value": 10
+                        },
+                        {
+                            "text": "<js>",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Choose the correct JavaScript syntax to change the content of the following HTML code.",
+                    "answers": [
+                        {
+                            "text": "document.getElement(“geek”).innerHTML=”I am a Geek”;",
+                            "value": 0
+                        },
+                        {
+                            "text": "document.getElementById(“geek”).innerHTML=”I am a Geek”;",
+                            "value": 10
+                        },
+                        {
+                            "text": "document.getId(“geek”)=”I am a Geek”;",
+                            "value": 0
+                        },
+                        {
+                            "text": "document.getElementById(“geek”).innerHTML=I am a Geek;",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Which of the following is the correct syntax to display “GeeksforGeeks” in an alert box using JavaScript?.",
+                    "answers": [
+                        {
+                            "text": "alertbox(“GeeksforGeeks”);",
+                            "value": 0
+                        },
+                        {
+                            "text": "msg(“GeeksforGeeks”);",
+                            "value": 0
+                        },
+                        {
+                            "text": "msgbox(“GeeksforGeeks”);",
+                            "value": 0
+                        },
+                        {
+                            "text": "alert(“GeeksforGeeks”);",
+                            "value": 10
+                        }
+                    ]
+                },
+                {
+                    "question": "What is the correct syntax for referring to an external script called “geek.js”.",
+                    "answers": [
+                        {
+                            "text": "<script src=”geek.js”>",
+                            "value": 10
+                        },
+                        {
+                            "text": "<script href=”geek.js”>",
+                            "value": 0
+                        },
+                        {
+                            "text": "<script ref=”geek.js”>",
+                            "value": 0
+                        },
+                        {
+                            "text": "<script name=”geek.js”>",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "What is the syntax for creating a function in JavaScript named as Geekfunc.",
+                    "answers": [
+                        {
+                            "text": "function = Geekfunc()",
+                            "value": 0
+                        },
+                        {
+                            "text": "function Geekfunc()",
+                            "value": 10
+                        },
+                        {
+                            "text": "function := Geekfunc()",
+                            "value": 0
+                        },
+                        {
+                            "text": "function : Geekfunc()",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "How is the function Geekfunc called in JavaScript?.",
+                    "answers": [
+                        {
+                            "text": "call Geekfunc();",
+                            "value": 0
+                        },
+                        {
+                            "text": "call function GeekFunc();",
+                            "value": 0
+                        },
+                        {
+                            "text": "Geekfunc();",
+                            "value": 10
+                        },
+                        {
+                            "text": "function Geekfunc();",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Which of the following is an advantage of using JavaScript?",
+                    "answers": [
+                        {
+                            "text": "Increased interactivity.",
+                            "value": 3.3
+                        },
+                        {
+                            "text": "Less server interaction.",
+                            "value": 3.3
+                        },
+                        {
+                            "text": "Immediate feedback from the users.",
+                            "value": 3.3
+                        },
+                        {
+                            "text": "All of the above",
+                            "value": 10
+                        }
+                    ]
+                },
+                {
+                    "question": "Which function of an Array object calls a function for each element in the array?",
+                    "answers": [
+                        {
+                            "text": "forEach()",
+                            "value": 10
+                        },
+                        {
+                            "text": "every()",
+                            "value": 0
+                        },
+                        {
+                            "text": "forEvery()",
+                            "value": 0
+                        },
+                        {
+                            "text": "each()",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "JavaScript is a ________ Side Scripting Language.",
+                    "answers": [
+                        {
+                            "text": "Server",
+                            "value": 0
+                        },
+                        {
+                            "text": "ISP",
+                            "value": 0
+                        },
+                        {
+                            "text": "Browser",
+                            "value": 10
+                        },
+                        {
+                            "text": "None of the above",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "What is the method in JavaScript used to remove the whitespace at the beginning and end of any string ?",
+                    "answers": [
+                        {
+                            "text": "strip()",
+                            "value": 0
+                        },
+                        {
+                            "text": "trim()",
+                            "value": 10
+                        },
+                        {
+                            "text": "stripped()",
+                            "value": 0
+                        },
+                        {
+                            "text": "trimmed()",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "quiz": {
+            "id": "002",
+            "title": "Javascript Basics 2.0",
+            "exercises": [
+                {
+                    "question": "What is the HTML tag under which one can write the JavaScript code?.",
+                    "answers": [
+                        {
+                            "text": "<javascript>",
+                            "value": 0
+                        },
+                        {
+                            "text": "<scripted>",
+                            "value": 0
+                        },
+                        {
+                            "text": "<script>",
+                            "value": 10
+                        },
+                        {
+                            "text": "<js>",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Choose the correct JavaScript syntax to change the content of the following HTML code.",
+                    "answers": [
+                        {
+                            "text": "document.getElement(“geek”).innerHTML=”I am a Geek”;",
+                            "value": 0
+                        },
+                        {
+                            "text": "document.getElementById(“geek”).innerHTML=”I am a Geek”;",
+                            "value": 10
+                        },
+                        {
+                            "text": "document.getId(“geek”)=”I am a Geek”;",
+                            "value": 0
+                        },
+                        {
+                            "text": "document.getElementById(“geek”).innerHTML=I am a Geek;",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Which of the following is the correct syntax to display “GeeksforGeeks” in an alert box using JavaScript?.",
+                    "answers": [
+                        {
+                            "text": "alertbox(“GeeksforGeeks”);",
+                            "value": 0
+                        },
+                        {
+                            "text": "msg(“GeeksforGeeks”);",
+                            "value": 0
+                        },
+                        {
+                            "text": "msgbox(“GeeksforGeeks”);",
+                            "value": 0
+                        },
+                        {
+                            "text": "alert(“GeeksforGeeks”);",
+                            "value": 10
+                        }
+                    ]
+                },
+                {
+                    "question": "What is the correct syntax for referring to an external script called “geek.js”.",
+                    "answers": [
+                        {
+                            "text": "<script src=”geek.js”>",
+                            "value": 10
+                        },
+                        {
+                            "text": "<script href=”geek.js”>",
+                            "value": 0
+                        },
+                        {
+                            "text": "<script ref=”geek.js”>",
+                            "value": 0
+                        },
+                        {
+                            "text": "<script name=”geek.js”>",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "What is the syntax for creating a function in JavaScript named as Geekfunc.",
+                    "answers": [
+                        {
+                            "text": "function = Geekfunc()",
+                            "value": 0
+                        },
+                        {
+                            "text": "function Geekfunc()",
+                            "value": 10
+                        },
+                        {
+                            "text": "function := Geekfunc()",
+                            "value": 0
+                        },
+                        {
+                            "text": "function : Geekfunc()",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "How is the function Geekfunc called in JavaScript?.",
+                    "answers": [
+                        {
+                            "text": "call Geekfunc();",
+                            "value": 0
+                        },
+                        {
+                            "text": "call function GeekFunc();",
+                            "value": 0
+                        },
+                        {
+                            "text": "Geekfunc();",
+                            "value": 10
+                        },
+                        {
+                            "text": "function Geekfunc();",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Which of the following is an advantage of using JavaScript?",
+                    "answers": [
+                        {
+                            "text": "Increased interactivity.",
+                            "value": 3.3
+                        },
+                        {
+                            "text": "Less server interaction.",
+                            "value": 3.3
+                        },
+                        {
+                            "text": "Immediate feedback from the users.",
+                            "value": 3.3
+                        },
+                        {
+                            "text": "All of the above",
+                            "value": 10
+                        }
+                    ]
+                },
+                {
+                    "question": "Which function of an Array object calls a function for each element in the array?",
+                    "answers": [
+                        {
+                            "text": "forEach()",
+                            "value": 10
+                        },
+                        {
+                            "text": "every()",
+                            "value": 0
+                        },
+                        {
+                            "text": "forEvery()",
+                            "value": 0
+                        },
+                        {
+                            "text": "each()",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "JavaScript is a ________ Side Scripting Language.",
+                    "answers": [
+                        {
+                            "text": "Server",
+                            "value": 0
+                        },
+                        {
+                            "text": "ISP",
+                            "value": 0
+                        },
+                        {
+                            "text": "Browser",
+                            "value": 10
+                        },
+                        {
+                            "text": "None of the above",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "What is the method in JavaScript used to remove the whitespace at the beginning and end of any string ?",
+                    "answers": [
+                        {
+                            "text": "strip()",
+                            "value": 0
+                        },
+                        {
+                            "text": "trim()",
+                            "value": 10
+                        },
+                        {
+                            "text": "stripped()",
+                            "value": 0
+                        },
+                        {
+                            "text": "trimmed()",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]
