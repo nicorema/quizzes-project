@@ -46,10 +46,7 @@ Exercise.prototype.instanceAnswers = function (answers) {
     answers.forEach(the_answers => instancedAnswers.push(new Answer(the_answers)));
     return instancedAnswers;
 }
-Exercise.prototype.getAnswerListByType = function(){
-    
-    return this.answers;
-}
+
 
 //Functions
 async function fetchData(route) {
@@ -69,17 +66,37 @@ function feedDropdown() {
     });
 }
 
-function emptyList(baseUl){
-    while ( baseUl.firstChild ) {
-        baseUl.removeChild( baseUl.firstChild );
-      }
+function emptyList(baseUl) {
+    while (baseUl.firstChild) {
+        baseUl.removeChild(baseUl.firstChild);
+    }
 }
+function getAnswerListByType(exercise) {
+    switch (exercise.type) {
+        //Multiple Choice One Answer T/F Incldued
+        case 1:
+            //return this.getMultipleChoiceSingleAnswerListToRender();
+            break;
+        //Fill In The Blank
+        case 2:
+            //return this.getFillInTheBlankListToRender();
+            break;
 
+        //Multiple Choice Multiple Answers
+        case 3:
+            //return this.getMultipleChoiceMultipleAnswersListToRender();
+            break;
+
+        default:
+            console.log("Exercise Type Not Supported");
+            break;
+    }
+}
 function renderQuestionList(baseUl, questionArray) {
     questionArray.forEach(exercise => {
         let listItem = document.createElement("li");
         listItem.innerHTML = exercise.question;
-        let answerList = exercise.getAnswerListByType();
+        let answerList = getAnswerListByType(exercise);
         console.log(answerList);
         baseUl.appendChild(listItem);
     });
