@@ -71,44 +71,56 @@ function emptyList(baseUl) {
         baseUl.removeChild(baseUl.firstChild);
     }
 }
-function getAnswerListByType(exercise) {
-    switch (exercise.type) {
-        //Multiple Choice One Answer T/F Incldued
+
+function getAnswerType(typeNumber){
+    switch(typeNumber){
         case 1:
-            //return this.getMultipleChoiceSingleAnswerListToRender();
-            break;
-        //Fill In The Blank
+            return {"answer_type":"radio" , "message":"Choose one answer"};
         case 2:
-            //return this.getFillInTheBlankListToRender();
-            break;
-
-        //Multiple Choice Multiple Answers
+            return {"answer_type":"text" , "message":"Fill in the blank"};
         case 3:
-            //return this.getMultipleChoiceMultipleAnswersListToRender();
-            break;
-
+            return {"answer_type":"checkbox" , "message":"Choose multiple answers (a wrong answer will subtract points)"};
         default:
-            console.log("Exercise Type Not Supported");
-            break;
+            return null;
     }
 }
+function getAnwsersRenderList(exercise){
+    let answers = exercise.answers;
+    let answersList = document.createElement("ul");
+    let type = getAnswerType(exercise.type).answer_type;
+
+    answers.forEach(the_answer => {
+        let questionLi = document.createElement("li");
+        if(exercise.type != 2){
+            questionLi.innerHTML = the_answer.text;
+        }
+        let input = document.createElement('input');
+        input.setAttribute('type', type);
+        input.setAttribute('name', exercise.id);
+        input.setAttribute('id', exercise.id);
+
+        questionLi.appendChild(input);
+        answersList.appendChild(questionLi);
+    });
+    return answersList
+}
+
 function renderQuestionList(baseUl, questionArray) {
     questionArray.forEach(exercise => {
         let listItem = document.createElement("li");
         listItem.innerHTML = exercise.question;
-        let answerList = getAnswerListByType(exercise);
-        console.log(answerList);
+        let typeAlert = document.createElement("strong");
+        typeAlert.innerHTML = getAnswerType(exercise.type).message;
+        listItem.appendChild(typeAlert);
+        let answerList = getAnwsersRenderList(exercise);
+        listItem.appendChild(answerList);
         baseUl.appendChild(listItem);
     });
 }
 
-function printQuestions() {
+function printExercises() {
     emptyList(quizList);
     renderQuestionList(quizList, this.currentQuiz.selectQuestions());
-}
-
-function initQuizTemplate() {
-    printQuestions();
 }
 
 function getCheckedAnswers() {
@@ -122,7 +134,7 @@ function getCheckedAnswers() {
 //Events
 quizButton.onclick = function () {
     currentQuiz = quizzes[selectQuiz.value];
-    initQuizTemplate();
+    printExercises();
 }
 
 sendBtn.onclick = function () {
