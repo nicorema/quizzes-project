@@ -1,438 +1,1248 @@
 [
     {
-        "quiz": {
-            "id": "001",
-            "title": "Javascript Basics",
-            "exercises": [
-                {
-                    "question": "What is the HTML tag under which one can write the JavaScript code?.",
-                    "answers": [
-                        {
-                            "text": "<javascript>",
-                            "value": 0
-                        },
-                        {
-                            "text": "<scripted>",
-                            "value": 0
-                        },
-                        {
-                            "text": "<script>",
-                            "value": 10
-                        },
-                        {
-                            "text": "<js>",
-                            "value": 0
-                        }
-                    ]
-                },
-                {
-                    "question": "Choose the correct JavaScript syntax to change the content of the following HTML code.",
-                    "answers": [
-                        {
-                            "text": "document.getElement(“geek”).innerHTML=”I am a Geek”;",
-                            "value": 0
-                        },
-                        {
-                            "text": "document.getElementById(“geek”).innerHTML=”I am a Geek”;",
-                            "value": 10
-                        },
-                        {
-                            "text": "document.getId(“geek”)=”I am a Geek”;",
-                            "value": 0
-                        },
-                        {
-                            "text": "document.getElementById(“geek”).innerHTML=I am a Geek;",
-                            "value": 0
-                        }
-                    ]
-                },
-                {
-                    "question": "Which of the following is the correct syntax to display “GeeksforGeeks” in an alert box using JavaScript?.",
-                    "answers": [
-                        {
-                            "text": "alertbox(“GeeksforGeeks”);",
-                            "value": 0
-                        },
-                        {
-                            "text": "msg(“GeeksforGeeks”);",
-                            "value": 0
-                        },
-                        {
-                            "text": "msgbox(“GeeksforGeeks”);",
-                            "value": 0
-                        },
-                        {
-                            "text": "alert(“GeeksforGeeks”);",
-                            "value": 10
-                        }
-                    ]
-                },
-                {
-                    "question": "What is the correct syntax for referring to an external script called “geek.js”.",
-                    "answers": [
-                        {
-                            "text": "<script src=”geek.js”>",
-                            "value": 10
-                        },
-                        {
-                            "text": "<script href=”geek.js”>",
-                            "value": 0
-                        },
-                        {
-                            "text": "<script ref=”geek.js”>",
-                            "value": 0
-                        },
-                        {
-                            "text": "<script name=”geek.js”>",
-                            "value": 0
-                        }
-                    ]
-                },
-                {
-                    "question": "What is the syntax for creating a function in JavaScript named as Geekfunc.",
-                    "answers": [
-                        {
-                            "text": "function = Geekfunc()",
-                            "value": 0
-                        },
-                        {
-                            "text": "function Geekfunc()",
-                            "value": 10
-                        },
-                        {
-                            "text": "function := Geekfunc()",
-                            "value": 0
-                        },
-                        {
-                            "text": "function : Geekfunc()",
-                            "value": 0
-                        }
-                    ]
-                },
-                {
-                    "question": "How is the function Geekfunc called in JavaScript?.",
-                    "answers": [
-                        {
-                            "text": "call Geekfunc();",
-                            "value": 0
-                        },
-                        {
-                            "text": "call function GeekFunc();",
-                            "value": 0
-                        },
-                        {
-                            "text": "Geekfunc();",
-                            "value": 10
-                        },
-                        {
-                            "text": "function Geekfunc();",
-                            "value": 0
-                        }
-                    ]
-                },
-                {
-                    "question": "Which of the following is an advantage of using JavaScript?",
-                    "answers": [
-                        {
-                            "text": "Increased interactivity.",
-                            "value": 3.3
-                        },
-                        {
-                            "text": "Less server interaction.",
-                            "value": 3.3
-                        },
-                        {
-                            "text": "Immediate feedback from the users.",
-                            "value": 3.3
-                        },
-                        {
-                            "text": "All of the above",
-                            "value": 10
-                        }
-                    ]
-                },
-                {
-                    "question": "Which function of an Array object calls a function for each element in the array?",
-                    "answers": [
-                        {
-                            "text": "forEach()",
-                            "value": 10
-                        },
-                        {
-                            "text": "every()",
-                            "value": 0
-                        },
-                        {
-                            "text": "forEvery()",
-                            "value": 0
-                        },
-                        {
-                            "text": "each()",
-                            "value": 0
-                        }
-                    ]
-                },
-                {
-                    "question": "JavaScript is a ________ Side Scripting Language.",
-                    "answers": [
-                        {
-                            "text": "Server",
-                            "value": 0
-                        },
-                        {
-                            "text": "ISP",
-                            "value": 0
-                        },
-                        {
-                            "text": "Browser",
-                            "value": 10
-                        },
-                        {
-                            "text": "None of the above",
-                            "value": 0
-                        }
-                    ]
-                },
-                {
-                    "question": "What is the method in JavaScript used to remove the whitespace at the beginning and end of any string ?",
-                    "answers": [
-                        {
-                            "text": "strip()",
-                            "value": 0
-                        },
-                        {
-                            "text": "trim()",
-                            "value": 10
-                        },
-                        {
-                            "text": "stripped()",
-                            "value": 0
-                        },
-                        {
-                            "text": "trimmed()",
-                            "value": 0
-                        }
-                    ]
-                }
-            ]
-        }
+        "subject": "Iron Maiden Knowledge",
+        "needed_score": 80,
+        "exercises": [
+            {
+                "id": "001",
+                "type": 1,
+                "question": "Adrian Smith, who did not agree with the direction the band was taking, left the band just before the album went into production and was replaced by whom?",
+                "answers": [
+                    {
+                        "text": "Kirk Hamett",
+                        "value": 0
+                    },
+                    {
+                        "text": "Tom Morello",
+                        "value": 0
+                    },
+                    {
+                        "text": "Janick Gers",
+                        "value": 10
+                    },
+                    {
+                        "text": "Kk. Downing",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "002",
+                "type": 1,
+                "question": "Which older song has the lyrics 'As I lay here lying in my bed, sweet voices come into my head'?",
+                "answers": [
+                    {
+                        "text": "Killers",
+                        "value": 0
+                    },
+                    {
+                        "text": "Phantom Of The Opera",
+                        "value": 0
+                    },
+                    {
+                        "text": "22 Acacia Avenue",
+                        "value": 0
+                    },
+                    {
+                        "text": "Another Life",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "003",
+                "type": 1,
+                "question": "'No Prayer for the Dying' represented a significant departure in sound from Maiden's two previous albums ('Somewhere in Time', 'Seventh Son of a Seventh Son'). Which band member was displeased by this change and subsequently left the group?",
+                "answers": [
+                    {
+                        "text": "Adrian Smith",
+                        "value": 10
+                    },
+                    {
+                        "text": "Clive Burr",
+                        "value": 0
+                    },
+                    {
+                        "text": "Bruce Dickinson",
+                        "value": 0
+                    },
+                    {
+                        "text": "Steve Harris",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "004",
+                "type": 1,
+                "question": "The band's debut album, entitled simply 'Iron Maiden' was released in 1980. Which track on it shares its name with a West End musical?",
+                "answers": [
+                    {
+                        "text": "Charlotte the Harlot",
+                        "value": 0
+                    },
+                    {
+                        "text": "Purgatory",
+                        "value": 0
+                    },
+                    {
+                        "text": "Phantom of the Opera",
+                        "value": 10
+                    },
+                    {
+                        "text": "Running Free",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "005",
+                "type": 1,
+                "question": "Eddie, your life started as a crude stage prop at early Iron Maiden live shows, in the form of just a head before being drawn with a body for the cover of their debut single 'Running Free' in 1980. Who was the artist responsible for creating this picture of you and giving birth to a music icon in the process?",
+                "answers": [
+                    {
+                        "text": "Michael Mendez",
+                        "value": 0
+                    },
+                    {
+                        "text": "Nick Teller",
+                        "value": 0
+                    },
+                    {
+                        "text": "Derek Riggs",
+                        "value": 10
+                    },
+                    {
+                        "text": "Paul Thompson",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "006",
+                "type": 1,
+                "question": "'Move in to fire the mainstream of bombers' what song and album are these lyrics from?",
+                "answers": [
+                    {
+                        "text": "Purgatory from Iron Maiden",
+                        "value": 0
+                    },
+                    {
+                        "text": "Aces High from The Number Of The Beast",
+                        "value": 0
+                    },
+                    {
+                        "text": "Aces High from Powerslave",
+                        "value": 10
+                    },
+                    {
+                        "text": "El Dorado from The Final Frontier",
+                        "value": 0
+                    },
+                    {
+                        "text": "El Dorado from The Number Of The Beast",
+                        "value": 0
+                    },
+                    {
+                        "text": "Can I Play With Madness from The Book Of Souls",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "007",
+                "type": 1,
+                "question": "Which song has these lines: 'There goes the siren that warns of the air raid Then comes the sound of the guns sending flak Out for the scramble we've got to get airborne Got to get up for the coming attack'?",
+                "answers": [
+                    {
+                        "text": "Prowler",
+                        "value": 0
+                    },
+                    {
+                        "text": "The Rime Of The Ancient Mariner",
+                        "value": 0
+                    },
+                    {
+                        "text": "Aces High",
+                        "value": 10
+                    },
+                    {
+                        "text": "Wratchild",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "008",
+                "type": 1,
+                "question": "There's one song on 'Brave New World' that was written solely by Steve Harris. Which one is it?",
+                "answers": [
+                    {
+                        "text": "Ghost of the Navigator",
+                        "value": 0
+                    },
+                    {
+                        "text": "Out of the Silent Planet",
+                        "value": 0
+                    },
+                    {
+                        "text": "Blood Brothers",
+                        "value": 10
+                    },
+                    {
+                        "text": "The Fallen Angel",
+                        "value": 0
+                    },
+                    {
+                        "text": "The Mercenary",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "009",
+                "type": 1,
+                "question": "What song are these lyrics from? 'Now it's burning his hands, he's turning to laugh Smiles as the flames sear his flesh Melting his face, screaming in pain Watch him die according to plan, He's dust on the ground, what did we learn'",
+                "answers": [
+                    {
+                        "text": "Book Of Souls",
+                        "value": 0
+                    },
+                    {
+                        "text": "Dance of Death",
+                        "value": 0
+                    },
+                    {
+                        "text": "Children of the Damned ",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "010",
+                "type": 1,
+                "question": "Which musician has not been member of the band?",
+                "answers": [
+                    {
+                        "text": "Tom Araya",
+                        "value": 3.3
+                    },
+                    {
+                        "text": "Dave Mustaine",
+                        "value": 3.3
+                    },
+                    {
+                        "text": "Brandon Flowers",
+                        "value": 3.3
+                    },
+                    {
+                        "text": "All the above",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "011",
+                "type": 1,
+                "question": "If you hear 'He's walking like a dead man, if he had lived he would have crucified us all' then, Children Of The Damned will been played?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 10
+                    },
+                    {
+                        "text": "false",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "012",
+                "type": 1,
+                "question": "Does Nicko McBrain have a Rib restuarent in Brasil?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 0
+                    },
+                    {
+                        "text": "false",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "013",
+                "type": 1,
+                "question": "Is Steve Harris a profesional Fencer?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 0
+                    },
+                    {
+                        "text": "false",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "014",
+                "type": 1,
+                "question": "Is Bruce Dickinson a airline pilot?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 10
+                    },
+                    {
+                        "text": "false",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "015",
+                "type": 1,
+                "question": "Bruce Dickinson ever left the band?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 10
+                    },
+                    {
+                        "text": "false",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "016",
+                "type": 1,
+                "question": "Is Steve Harris a West Ham Utd fan?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 10
+                    },
+                    {
+                        "text": "false",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "017",
+                "type": 1,
+                "question": "Is any member of the band in a side project?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 10
+                    },
+                    {
+                        "text": "false",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "018",
+                "type": 1,
+                "question": "The X Factor album came out in 1010?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 0
+                    },
+                    {
+                        "text": "false",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "019",
+                "type": 1,
+                "question": "Is Blaze Bayley a band member?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 0
+                    },
+                    {
+                        "text": "false",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "020",
+                "type": 2,
+                "question": "Complete the album name Somewhere In _____ ",
+                "answers": [
+                    {
+                        "text": "time",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "021",
+                "type": 2,
+                "question": "Complete the lyrics '...Tomorrow comes tomorrow goes but the ______ remains the same... ",
+                "answers": [
+                    {
+                        "text": "cloud",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "022",
+                "type": 2,
+                "question": "Complete the band member name: ____ Murray",
+                "answers": [
+                    {
+                        "text": "dave",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "023",
+                "type": 2,
+                "question": "Complete the song name: The Man Who Would Be _______",
+                "answers": [
+                    {
+                        "text": "king",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "024",
+                "type": 2,
+                "question": "Type the release year of The Final Frontier Album ",
+                "answers": [
+                    {
+                        "text": "1010",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "025",
+                "type": 2,
+                "question": "Whats The number of the Iron Maiden plane 'Ed Force One'?",
+                "answers": [
+                    {
+                        "text": "666",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "026",
+                "type": 2,
+                "question": "Complete the name: Eddie The _____ ",
+                "answers": [
+                    {
+                        "text": "head",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "027",
+                "type": 2,
+                "question": "'I'm gonna organise some changes in my life,I'm gonna exorcise the demons of my ____ ....'",
+                "answers": [
+                    {
+                        "text": "past",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "028",
+                "type": 2,
+                "question": "Complete the member name ______ Gers",
+                "answers": [
+                    {
+                        "text": "janick",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "029",
+                "type": 2,
+                "question": "Complete the song title Rime of The _____ Mariner ",
+                "answers": [
+                    {
+                        "text": "ancient",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "030",
+                "type": 2,
+                "question": "Complete the song title Can I ___ With Madness ",
+                "answers": [
+                    {
+                        "text": "play",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "031",
+                "type": 3,
+                "question": "The Brave New World album represents the return of? ",
+                "answers": [
+                    {
+                        "text": "Bruce Dickinson",
+                        "value": 5
+                    },
+                    {
+                        "text": "Paul Di Anno",
+                        "value": 0
+                    },
+                    {
+                        "text": "Adrian Smith",
+                        "value": 5
+                    },
+                    {
+                        "text": "Clive Burr ",
+                        "value": 0
+                    },
+                    {
+                        "text": "Dennis Straton",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "032",
+                "type": 3,
+                "question": "Tailgunner was written by?",
+                "answers": [
+                    {
+                        "text": "Steve Harris",
+                        "value": 5
+                    },
+                    {
+                        "text": "Bruce Dickinson",
+                        "value": 5
+                    },
+                    {
+                        "text": "Dave Murray",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "033",
+                "type": 3,
+                "question": "Whick are former members of the band",
+                "answers": [
+                    {
+                        "text": "Paul Di Anno",
+                        "value": 3.3
+                    },
+                    {
+                        "text": "Blaze Bayley",
+                        "value": 3.3
+                    },
+                    {
+                        "text": "Clive Burr",
+                        "value": 3.3
+                    },
+                    {
+                        "text": "Steve Divko",
+                        "value": 0
+                    },
+                    {
+                        "text": "Austin Lombardo",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "034",
+                "type": 3,
+                "question": "Which songs from the No Prayer For The Dying album were written by Dave Murray",
+                "answers": [
+                    {
+                        "text": "Tailgunner",
+                        "value": 0
+                    },
+                    {
+                        "text": "Holy Smoke",
+                        "value": 0
+                    },
+                    {
+                        "text": "No Prayer for the Dying",
+                        "value": 0
+                    },
+                    {
+                        "text": "Public Enema Number One",
+                        "value": 5
+                    },
+                    {
+                        "text": "Fates Warning",
+                        "value": 5
+                    },
+                    {
+                        "text": "Children of the Damned ",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "035",
+                "type": 3,
+                "question": "Which former Iron Maiden members also played in the band 'Samson'?",
+                "answers": [
+                    {
+                        "text": "Steve Harris",
+                        "value": 0
+                    },
+                    {
+                        "text": "Bruce Dickinson",
+                        "value": 5
+                    },
+                    {
+                        "text": "Clive Burr",
+                        "value": 5
+                    }
+                ]
+            }
+        ]
     },
     {
-        "quiz": {
-            "id": "002",
-            "title": "Javascript Basics 2.0",
-            "exercises": [
-                {
-                    "question": "What is the HTML tag under which one can write the JavaScript code?.",
-                    "answers": [
-                        {
-                            "text": "<javascript>",
-                            "value": 0
-                        },
-                        {
-                            "text": "<scripted>",
-                            "value": 0
-                        },
-                        {
-                            "text": "<script>",
-                            "value": 10
-                        },
-                        {
-                            "text": "<js>",
-                            "value": 0
-                        }
-                    ]
-                },
-                {
-                    "question": "Choose the correct JavaScript syntax to change the content of the following HTML code.",
-                    "answers": [
-                        {
-                            "text": "document.getElement(“geek”).innerHTML=”I am a Geek”;",
-                            "value": 0
-                        },
-                        {
-                            "text": "document.getElementById(“geek”).innerHTML=”I am a Geek”;",
-                            "value": 10
-                        },
-                        {
-                            "text": "document.getId(“geek”)=”I am a Geek”;",
-                            "value": 0
-                        },
-                        {
-                            "text": "document.getElementById(“geek”).innerHTML=I am a Geek;",
-                            "value": 0
-                        }
-                    ]
-                },
-                {
-                    "question": "Which of the following is the correct syntax to display “GeeksforGeeks” in an alert box using JavaScript?.",
-                    "answers": [
-                        {
-                            "text": "alertbox(“GeeksforGeeks”);",
-                            "value": 0
-                        },
-                        {
-                            "text": "msg(“GeeksforGeeks”);",
-                            "value": 0
-                        },
-                        {
-                            "text": "msgbox(“GeeksforGeeks”);",
-                            "value": 0
-                        },
-                        {
-                            "text": "alert(“GeeksforGeeks”);",
-                            "value": 10
-                        }
-                    ]
-                },
-                {
-                    "question": "What is the correct syntax for referring to an external script called “geek.js”.",
-                    "answers": [
-                        {
-                            "text": "<script src=”geek.js”>",
-                            "value": 10
-                        },
-                        {
-                            "text": "<script href=”geek.js”>",
-                            "value": 0
-                        },
-                        {
-                            "text": "<script ref=”geek.js”>",
-                            "value": 0
-                        },
-                        {
-                            "text": "<script name=”geek.js”>",
-                            "value": 0
-                        }
-                    ]
-                },
-                {
-                    "question": "What is the syntax for creating a function in JavaScript named as Geekfunc.",
-                    "answers": [
-                        {
-                            "text": "function = Geekfunc()",
-                            "value": 0
-                        },
-                        {
-                            "text": "function Geekfunc()",
-                            "value": 10
-                        },
-                        {
-                            "text": "function := Geekfunc()",
-                            "value": 0
-                        },
-                        {
-                            "text": "function : Geekfunc()",
-                            "value": 0
-                        }
-                    ]
-                },
-                {
-                    "question": "How is the function Geekfunc called in JavaScript?.",
-                    "answers": [
-                        {
-                            "text": "call Geekfunc();",
-                            "value": 0
-                        },
-                        {
-                            "text": "call function GeekFunc();",
-                            "value": 0
-                        },
-                        {
-                            "text": "Geekfunc();",
-                            "value": 10
-                        },
-                        {
-                            "text": "function Geekfunc();",
-                            "value": 0
-                        }
-                    ]
-                },
-                {
-                    "question": "Which of the following is an advantage of using JavaScript?",
-                    "answers": [
-                        {
-                            "text": "Increased interactivity.",
-                            "value": 3.3
-                        },
-                        {
-                            "text": "Less server interaction.",
-                            "value": 3.3
-                        },
-                        {
-                            "text": "Immediate feedback from the users.",
-                            "value": 3.3
-                        },
-                        {
-                            "text": "All of the above",
-                            "value": 10
-                        }
-                    ]
-                },
-                {
-                    "question": "Which function of an Array object calls a function for each element in the array?",
-                    "answers": [
-                        {
-                            "text": "forEach()",
-                            "value": 10
-                        },
-                        {
-                            "text": "every()",
-                            "value": 0
-                        },
-                        {
-                            "text": "forEvery()",
-                            "value": 0
-                        },
-                        {
-                            "text": "each()",
-                            "value": 0
-                        }
-                    ]
-                },
-                {
-                    "question": "JavaScript is a ________ Side Scripting Language.",
-                    "answers": [
-                        {
-                            "text": "Server",
-                            "value": 0
-                        },
-                        {
-                            "text": "ISP",
-                            "value": 0
-                        },
-                        {
-                            "text": "Browser",
-                            "value": 10
-                        },
-                        {
-                            "text": "None of the above",
-                            "value": 0
-                        }
-                    ]
-                },
-                {
-                    "question": "What is the method in JavaScript used to remove the whitespace at the beginning and end of any string ?",
-                    "answers": [
-                        {
-                            "text": "strip()",
-                            "value": 0
-                        },
-                        {
-                            "text": "trim()",
-                            "value": 10
-                        },
-                        {
-                            "text": "stripped()",
-                            "value": 0
-                        },
-                        {
-                            "text": "trimmed()",
-                            "value": 0
-                        }
-                    ]
-                }
-            ]
-        }
+        "subject": "Iron Maiden Knowledge(Copy)",
+        "needed_score": 80,
+        "exercises": [
+            {
+                "id": "001",
+                "type": 1,
+                "question": "Adrian Smith, who did not agree with the direction the band was taking, left the band just before the album went into production and was replaced by whom?",
+                "answers": [
+                    {
+                        "text": "Kirk Hamett",
+                        "value": 0
+                    },
+                    {
+                        "text": "Tom Morello",
+                        "value": 0
+                    },
+                    {
+                        "text": "Janick Gers",
+                        "value": 10
+                    },
+                    {
+                        "text": "Kk. Downing",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "002",
+                "type": 1,
+                "question": "Which older song has the lyrics 'As I lay here lying in my bed, sweet voices come into my head'?",
+                "answers": [
+                    {
+                        "text": "Killers",
+                        "value": 0
+                    },
+                    {
+                        "text": "Phantom Of The Opera",
+                        "value": 0
+                    },
+                    {
+                        "text": "22 Acacia Avenue",
+                        "value": 0
+                    },
+                    {
+                        "text": "Another Life",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "003",
+                "type": 1,
+                "question": "'No Prayer for the Dying' represented a significant departure in sound from Maiden's two previous albums ('Somewhere in Time', 'Seventh Son of a Seventh Son'). Which band member was displeased by this change and subsequently left the group?",
+                "answers": [
+                    {
+                        "text": "Adrian Smith",
+                        "value": 10
+                    },
+                    {
+                        "text": "Clive Burr",
+                        "value": 0
+                    },
+                    {
+                        "text": "Bruce Dickinson",
+                        "value": 0
+                    },
+                    {
+                        "text": "Steve Harris",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "004",
+                "type": 1,
+                "question": "The band's debut album, entitled simply 'Iron Maiden' was released in 1980. Which track on it shares its name with a West End musical?",
+                "answers": [
+                    {
+                        "text": "Charlotte the Harlot",
+                        "value": 0
+                    },
+                    {
+                        "text": "Purgatory",
+                        "value": 0
+                    },
+                    {
+                        "text": "Phantom of the Opera",
+                        "value": 10
+                    },
+                    {
+                        "text": "Running Free",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "005",
+                "type": 1,
+                "question": "Eddie, your life started as a crude stage prop at early Iron Maiden live shows, in the form of just a head before being drawn with a body for the cover of their debut single 'Running Free' in 1980. Who was the artist responsible for creating this picture of you and giving birth to a music icon in the process?",
+                "answers": [
+                    {
+                        "text": "Michael Mendez",
+                        "value": 0
+                    },
+                    {
+                        "text": "Nick Teller",
+                        "value": 0
+                    },
+                    {
+                        "text": "Derek Riggs",
+                        "value": 10
+                    },
+                    {
+                        "text": "Paul Thompson",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "006",
+                "type": 1,
+                "question": "'Move in to fire the mainstream of bombers' what song and album are these lyrics from?",
+                "answers": [
+                    {
+                        "text": "Purgatory from Iron Maiden",
+                        "value": 0
+                    },
+                    {
+                        "text": "Aces High from The Number Of The Beast",
+                        "value": 0
+                    },
+                    {
+                        "text": "Aces High from Powerslave",
+                        "value": 10
+                    },
+                    {
+                        "text": "El Dorado from The Final Frontier",
+                        "value": 0
+                    },
+                    {
+                        "text": "El Dorado from The Number Of The Beast",
+                        "value": 0
+                    },
+                    {
+                        "text": "Can I Play With Madness from The Book Of Souls",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "007",
+                "type": 1,
+                "question": "Which song has these lines: 'There goes the siren that warns of the air raid Then comes the sound of the guns sending flak Out for the scramble we've got to get airborne Got to get up for the coming attack'?",
+                "answers": [
+                    {
+                        "text": "Prowler",
+                        "value": 0
+                    },
+                    {
+                        "text": "The Rime Of The Ancient Mariner",
+                        "value": 0
+                    },
+                    {
+                        "text": "Aces High",
+                        "value": 10
+                    },
+                    {
+                        "text": "Wratchild",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "008",
+                "type": 1,
+                "question": "There's one song on 'Brave New World' that was written solely by Steve Harris. Which one is it?",
+                "answers": [
+                    {
+                        "text": "Ghost of the Navigator",
+                        "value": 0
+                    },
+                    {
+                        "text": "Out of the Silent Planet",
+                        "value": 0
+                    },
+                    {
+                        "text": "Blood Brothers",
+                        "value": 10
+                    },
+                    {
+                        "text": "The Fallen Angel",
+                        "value": 0
+                    },
+                    {
+                        "text": "The Mercenary",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "009",
+                "type": 1,
+                "question": "What song are these lyrics from? 'Now it's burning his hands, he's turning to laugh Smiles as the flames sear his flesh Melting his face, screaming in pain Watch him die according to plan, He's dust on the ground, what did we learn'",
+                "answers": [
+                    {
+                        "text": "Book Of Souls",
+                        "value": 0
+                    },
+                    {
+                        "text": "Dance of Death",
+                        "value": 0
+                    },
+                    {
+                        "text": "Children of the Damned ",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "010",
+                "type": 1,
+                "question": "Which musician has not been member of the band?",
+                "answers": [
+                    {
+                        "text": "Tom Araya",
+                        "value": 3.3
+                    },
+                    {
+                        "text": "Dave Mustaine",
+                        "value": 3.3
+                    },
+                    {
+                        "text": "Brandon Flowers",
+                        "value": 3.3
+                    },
+                    {
+                        "text": "All the above",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "011",
+                "type": 1,
+                "question": "If you hear 'He's walking like a dead man, if he had lived he would have crucified us all' then, Children Of The Damned will been played?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 10
+                    },
+                    {
+                        "text": "false",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "012",
+                "type": 1,
+                "question": "Does Nicko McBrain have a Rib restuarent in Brasil?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 0
+                    },
+                    {
+                        "text": "false",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "013",
+                "type": 1,
+                "question": "Is Steve Harris a profesional Fencer?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 0
+                    },
+                    {
+                        "text": "false",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "014",
+                "type": 1,
+                "question": "Is Bruce Dickinson a airline pilot?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 10
+                    },
+                    {
+                        "text": "false",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "015",
+                "type": 1,
+                "question": "Bruce Dickinson ever left the band?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 10
+                    },
+                    {
+                        "text": "false",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "016",
+                "type": 1,
+                "question": "Is Steve Harris a West Ham Utd fan?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 10
+                    },
+                    {
+                        "text": "false",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "017",
+                "type": 1,
+                "question": "Is any member of the band in a side project?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 10
+                    },
+                    {
+                        "text": "false",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "018",
+                "type": 1,
+                "question": "The X Factor album came out in 1010?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 0
+                    },
+                    {
+                        "text": "false",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "019",
+                "type": 1,
+                "question": "Is Blaze Bayley a band member?",
+                "answers": [
+                    {
+                        "text": "true",
+                        "value": 0
+                    },
+                    {
+                        "text": "false",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "020",
+                "type": 2,
+                "question": "Complete the album name Somewhere In _____ ",
+                "answers": [
+                    {
+                        "text": "time",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "021",
+                "type": 2,
+                "question": "Complete the lyrics '...Tomorrow comes tomorrow goes but the ______ remains the same... ",
+                "answers": [
+                    {
+                        "text": "cloud",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "022",
+                "type": 2,
+                "question": "Complete the band member name: ____ Murray",
+                "answers": [
+                    {
+                        "text": "dave",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "023",
+                "type": 2,
+                "question": "Complete the song name: The Man Who Would Be _______",
+                "answers": [
+                    {
+                        "text": "king",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "024",
+                "type": 2,
+                "question": "Type the release year of The Final Frontier Album ",
+                "answers": [
+                    {
+                        "text": "1010",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "025",
+                "type": 2,
+                "question": "Whats The number of the Iron Maiden plane 'Ed Force One'?",
+                "answers": [
+                    {
+                        "text": "666",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "026",
+                "type": 2,
+                "question": "Complete the name: Eddie The _____ ",
+                "answers": [
+                    {
+                        "text": "head",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "027",
+                "type": 2,
+                "question": "'I'm gonna organise some changes in my life,I'm gonna exorcise the demons of my ____ ....'",
+                "answers": [
+                    {
+                        "text": "past",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "028",
+                "type": 2,
+                "question": "Complete the member name ______ Gers",
+                "answers": [
+                    {
+                        "text": "janick",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "029",
+                "type": 2,
+                "question": "Complete the song title Rime of The _____ Mariner ",
+                "answers": [
+                    {
+                        "text": "ancient",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "030",
+                "type": 2,
+                "question": "Complete the song title Can I ___ With Madness ",
+                "answers": [
+                    {
+                        "text": "play",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "031",
+                "type": 3,
+                "question": "The Brave New World album represents the return of? ",
+                "answers": [
+                    {
+                        "text": "Bruce Dickinson",
+                        "value": 5
+                    },
+                    {
+                        "text": "Paul Di Anno",
+                        "value": 0
+                    },
+                    {
+                        "text": "Adrian Smith",
+                        "value": 5
+                    },
+                    {
+                        "text": "Clive Burr ",
+                        "value": 0
+                    },
+                    {
+                        "text": "Dennis Straton",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "032",
+                "type": 3,
+                "question": "Tailgunner was written by?",
+                "answers": [
+                    {
+                        "text": "Steve Harris",
+                        "value": 5
+                    },
+                    {
+                        "text": "Bruce Dickinson",
+                        "value": 5
+                    },
+                    {
+                        "text": "Dave Murray",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "033",
+                "type": 3,
+                "question": "Whick are former members of the band",
+                "answers": [
+                    {
+                        "text": "Paul Di Anno",
+                        "value": 3.3
+                    },
+                    {
+                        "text": "Blaze Bayley",
+                        "value": 3.3
+                    },
+                    {
+                        "text": "Clive Burr",
+                        "value": 3.3
+                    },
+                    {
+                        "text": "Steve Divko",
+                        "value": 0
+                    },
+                    {
+                        "text": "Austin Lombardo",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "034",
+                "type": 3,
+                "question": "Which songs from the No Prayer For The Dying album were written by Dave Murray",
+                "answers": [
+                    {
+                        "text": "Tailgunner",
+                        "value": 0
+                    },
+                    {
+                        "text": "Holy Smoke",
+                        "value": 0
+                    },
+                    {
+                        "text": "No Prayer for the Dying",
+                        "value": 0
+                    },
+                    {
+                        "text": "Public Enema Number One",
+                        "value": 5
+                    },
+                    {
+                        "text": "Fates Warning",
+                        "value": 5
+                    },
+                    {
+                        "text": "Children of the Damned ",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "035",
+                "type": 3,
+                "question": "Which former Iron Maiden members also played in the band 'Samson'?",
+                "answers": [
+                    {
+                        "text": "Steve Harris",
+                        "value": 0
+                    },
+                    {
+                        "text": "Bruce Dickinson",
+                        "value": 5
+                    },
+                    {
+                        "text": "Clive Burr",
+                        "value": 5
+                    }
+                ]
+            }
+        ]
     }
 ]

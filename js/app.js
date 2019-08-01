@@ -1,7 +1,6 @@
 //Data Structures
-var quizzes;
-var quizzesEntities = [];
-var currentQuizEntitie;
+var quizzes = [];
+var currentQuiz;
 
 //UI Elements
 const selectQuiz = document.getElementById("quiz-dropdown");
@@ -12,22 +11,18 @@ const sendBtn = document.getElementById("send-btn");
 const fname = document.getElementById("fname");
 const lname = document.getElementById("lname");
 
-//Constructors
-function Quiz(object, exercises) {
-    this.id = object.id;
-    this.title = object.title;
-    this.exercises = exercises;
-}
-Quiz.prototype.shuffleQuestions = function () {
-    suffleArray(this.exercises);
+//Entities
+function Quiz(object) {
+    this.subject = object.subject;
+    this.needed_score = object.needed_score;
+    this.exercises = this.instanceExercises(object.exercises);
 }
 
-function Exercise(object, answers) {
+function Exercise(object) {
+    this.id = object.id;
+    this.type = object.type;
     this.question = object.question;
-    this.answers = answers;
-}
-Exercise.prototype.shuffleAnswers = function () {
-    suffleArray(this.answers);
+    this.answers = this.instanceAnswers(object.answers);
 }
 
 function Answer(object) {
@@ -35,8 +30,28 @@ function Answer(object) {
     this.value = object.value;
 }
 
-//Functions
+Quiz.prototype.instanceExercises = function (exercises) {
+    let instancedExercises = [];
+    exercises.forEach(the_exercise => instancedExercises.push(new Exercise(the_exercise)));
+    return instancedExercises;
+}
+Quiz.prototype.selectQuestions = function () {
+    const questionsByQuiz = 10;
+    suffleArray(this.exercises);
+    return this.exercises.slice(0, questionsByQuiz);
+}
 
+Exercise.prototype.instanceAnswers = function (answers) {
+    let instancedAnswers = [];
+    answers.forEach(the_answers => instancedAnswers.push(new Answer(the_answers)));
+    return instancedAnswers;
+}
+Exercise.prototype.getAnswerListByType = function(){
+    
+    return this.answers;
+}
+
+//Functions
 async function fetchData(route) {
     let data = await fetch(route);
     let json = await data.json();
@@ -44,58 +59,38 @@ async function fetchData(route) {
 
 }
 
+
 function feedDropdown() {
-    this.quizzesEntities.forEach(quiz => {
+    this.quizzes.forEach((quiz, index) => {
         let option = document.createElement('option');
-        option.value = quiz.id;
-        option.innerHTML = quiz.title;
+        option.innerHTML = quiz.subject;
+        option.value = index;
         selectQuiz.appendChild(option);
     });
 }
 
-function initObjects() {
-    this.quizzes.forEach(quiz => {
-        let exercises = [];
-        quiz.quiz.exercises.forEach(exercise => {
-            let answers = [];
-            exercise.answers.forEach(answer => answers.push(new Answer(answer)));
-            exercises.push(new Exercise(exercise, answers));
+function emptyList(baseUl){
+    while ( baseUl.firstChild ) {
+        baseUl.removeChild( baseUl.firstChild );
+      }
+}
 
-        }
-        );
-        this.quizzesEntities.push(new Quiz(quiz.quiz, exercises));
+function renderQuestionList(baseUl, questionArray) {
+    questionArray.forEach(exercise => {
+        let listItem = document.createElement("li");
+        listItem.innerHTML = exercise.question;
+        let answerList = exercise.getAnswerListByType();
+        console.log(answerList);
+        baseUl.appendChild(listItem);
     });
 }
 
 function printQuestions() {
-    while (quizList.firstChild) {
-        quizList.removeChild(quizList.firstChild);
-    }
-    this.currentQuizEntitie.exercises.forEach(exercise => {
-        let listItem = document.createElement('li');
-        listItem.innerHTML = exercise.question
-        let optionList = document.createElement('ul');
-        exercise.shuffleAnswers();
-        exercise.answers.forEach(answer => {
-            let optionItem = document.createElement('li');
-            optionItem.innerHTML = answer.text.replace(/</g, "&lt");
-            let radioBtn = document.createElement('input');
-            radioBtn.type = "radio";
-            radioBtn.name = exercise.question;
-            //TODO hide somehow this from the html
-            radioBtn.value = answer.value;
-            radioBtn.className = "quiz-radio-btn"
-            optionItem.appendChild(radioBtn);
-            optionList.appendChild(optionItem);
-        });
-
-        quizList.appendChild(listItem);
-        quizList.appendChild(optionList);
-    });
+    emptyList(quizList);
+    renderQuestionList(quizList, this.currentQuiz.selectQuestions());
 }
 
 function initQuizTemplate() {
-    this.currentQuizEntitie.shuffleQuestions();
     printQuestions();
 }
 
@@ -103,15 +98,13 @@ function getCheckedAnswers() {
     let radios = document.getElementsByClassName("quiz-radio-btn");
     let radiosArray = [].slice.call(radios);
     let checkedRadios;
-    checkedRadios=radiosArray.filter(radio => radio.checked);
-    console.log(checkedRadios);
+    checkedRadios = radiosArray.filter(radio => radio.checked);
     return checkedRadios;
 }
 
 //Events
 quizButton.onclick = function () {
-    currentQuizEntitie = quizzesEntities.filter(quiz => quiz.id == selectQuiz.value);
-    currentQuizEntitie = currentQuizEntitie[0];
+    currentQuiz = quizzes[selectQuiz.value];
     initQuizTemplate();
 }
 
@@ -125,13 +118,12 @@ sendBtn.onclick = function () {
 }
 //Init Data
 function handleData(data) {
-    this.quizzes = data;
-    initObjects();
+    data.forEach(quiz => quizzes.push(new Quiz(quiz)));
     feedDropdown();
 }
 
 
-fetchData("https://api.myjson.com/bins/y4sg1")
+fetchData("https://api.myjson.com/bins/8vugd")
     .then(data => handleData(data))
     .catch(err => console.log(err));
 
