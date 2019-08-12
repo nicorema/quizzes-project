@@ -1,7 +1,3 @@
-//Data Structures
-var quizzes = [];
-var currentQuiz;
-
 //UI Elements
 const selectQuiz = document.getElementById("quiz-dropdown");
 const quizTitle = document.getElementById("quiz-title");
@@ -11,6 +7,13 @@ const sendBtn = document.getElementById("send-btn");
 const fname = document.getElementById("fname");
 const lname = document.getElementById("lname");
 
+//Data Structures
+var quizzes = [];
+var currentQuiz;
+var currentStudent;
+var isLnameFilled = checkEmptyInput(lname);
+var isFnameFilled = checkEmptyInput(fname)
+updateStartBtn();
 //Entities
 function Quiz(object) {
     this.subject = object.subject;
@@ -28,6 +31,12 @@ function Exercise(object) {
 function Answer(object) {
     this.text = object.text;
     this.value = object.value;
+}
+
+function Student(fname,lname,quiz){
+    this.fname = fname;
+    this.lname = lname;
+    this.quiz = quiz;
 }
 
 Quiz.prototype.instanceExercises = function (exercises) {
@@ -123,28 +132,37 @@ function printExercises() {
     renderQuestionList(quizList, this.currentQuiz.selectQuestions());
 }
 
-function getCheckedAnswers() {
-    let radios = document.getElementsByClassName("quiz-radio-btn");
-    let radiosArray = [].slice.call(radios);
-    let checkedRadios;
-    checkedRadios = radiosArray.filter(radio => radio.checked);
-    return checkedRadios;
-}
 
+function updateStartBtn(){
+    console.log(isFnameFilled+" "+isLnameFilled);
+    quizButton.disabled = !(isFnameFilled && isLnameFilled);
+}
 //Events
 quizButton.onclick = function () {
     currentQuiz = quizzes[selectQuiz.value];
     printExercises();
 }
 
-sendBtn.onclick = function () {
-
-    //console.log(fname.value);
-    //console.log(lname.value);
-    //Uconsole.log(getCheckedAnswers());
-    getCheckedAnswers();
-
+quizButton.onclick = function () {
+    let confirmMessage;
+    confirmMessage += fname.value +" "+ lname.value;
+    confirmMessage = addEndLineBreak(confirmMessage);
+    confirmMessage += "Vas a iniciar el quiz:";
+    confirmMessage = addEndLineBreak(confirmMessage); 
+    confirmMessage += "ye ye ye";
+    confirm(confirmMessage);
 }
+
+fname.oninput = function(){
+    isFnameFilled = checkEmptyInput(this);
+    updateStartBtn();
+}
+
+lname.oninput = function(){
+    isLnameFilled = checkEmptyInput(this);
+    updateStartBtn();
+}
+
 //Init Data
 function handleData(data) {
     data.forEach(quiz => quizzes.push(new Quiz(quiz)));
@@ -152,7 +170,7 @@ function handleData(data) {
 }
 
 
-fetchData("https://api.myjson.com/bins/8vugd")
+fetchData("https://api.myjson.com/bins/6g957")
     .then(data => handleData(data))
     .catch(err => console.log(err));
 

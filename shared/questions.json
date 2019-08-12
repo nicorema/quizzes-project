@@ -623,74 +623,74 @@
         ]
     },
     {
-        "subject": "Iron Maiden Knowledge(Copy)",
-        "needed_score": 80,
+        "subject": "NOFX Knowledge",
+        "needed_score": 60,
         "exercises": [
             {
                 "id": "001",
                 "type": 1,
-                "question": "Adrian Smith, who did not agree with the direction the band was taking, left the band just before the album went into production and was replaced by whom?",
+                "question": "On what album did the song 'Brain Constipation' appear?",
                 "answers": [
                     {
-                        "text": "Kirk Hamett",
+                        "text": "Liberal Animation ",
                         "value": 0
                     },
                     {
-                        "text": "Tom Morello",
+                        "text": " S&M Airlines ",
                         "value": 0
                     },
                     {
-                        "text": "Janick Gers",
+                        "text": "Pump Up The Valuum ",
+                        "value": 0
+                    },
+                    {
+                        "text": "Pump Up The Valuum",
+                        "value": 0
+                    },
+                    {
+                        "text": "Ribbed",
                         "value": 10
-                    },
-                    {
-                        "text": "Kk. Downing",
-                        "value": 0
                     }
                 ]
             },
             {
                 "id": "002",
                 "type": 1,
-                "question": "Which older song has the lyrics 'As I lay here lying in my bed, sweet voices come into my head'?",
+                "question": "The original lineup included singer/bassist Fat Mike, Erik Sandin, and?",
                 "answers": [
                     {
-                        "text": "Killers",
+                        "text": "Kit Buchetti",
                         "value": 0
                     },
                     {
-                        "text": "Phantom Of The Opera",
+                        "text": "Carl Cox",
                         "value": 0
                     },
                     {
-                        "text": "22 Acacia Avenue",
-                        "value": 0
-                    },
-                    {
-                        "text": "Another Life",
+                        "text": "Eric Melvin",
                         "value": 10
+                    },
+                    {
+                        "text": "Sam Dunn",
+                        "value": 0
                     }
                 ]
             },
             {
                 "id": "003",
                 "type": 1,
-                "question": "'No Prayer for the Dying' represented a significant departure in sound from Maiden's two previous albums ('Somewhere in Time', 'Seventh Son of a Seventh Son'). Which band member was displeased by this change and subsequently left the group?",
+                "question": "Who has played second guitar and trumpet since 1991?",
                 "answers": [
                     {
-                        "text": "Adrian Smith",
+                        "text": "El Hefe",
                         "value": 10
                     },
                     {
-                        "text": "Clive Burr",
+                        "text": "El Lider",
                         "value": 0
                     },
                     {
-                        "text": "Bruce Dickinson",
-                        "value": 0
-                    },
-                    {
-                        "text": "Steve Harris",
+                        "text": "El Macho",
                         "value": 0
                     }
                 ]
@@ -698,22 +698,14 @@
             {
                 "id": "004",
                 "type": 1,
-                "question": "The band's debut album, entitled simply 'Iron Maiden' was released in 1980. Which track on it shares its name with a West End musical?",
+                "question": "The group has sold over 6 million records worldwide and are one of the most successful independent bands of all time?",
                 "answers": [
                     {
-                        "text": "Charlotte the Harlot",
-                        "value": 0
-                    },
-                    {
-                        "text": "Purgatory",
-                        "value": 0
-                    },
-                    {
-                        "text": "Phantom of the Opera",
+                        "text": "true",
                         "value": 10
                     },
                     {
-                        "text": "Running Free",
+                        "text": "false",
                         "value": 0
                     }
                 ]
@@ -721,22 +713,22 @@
             {
                 "id": "005",
                 "type": 1,
-                "question": "Eddie, your life started as a crude stage prop at early Iron Maiden live shows, in the form of just a head before being drawn with a body for the cover of their debut single 'Running Free' in 1980. Who was the artist responsible for creating this picture of you and giving birth to a music icon in the process?",
+                "question": "In 2002 Nofx recorded a split album with which of theese bands?",
                 "answers": [
                     {
-                        "text": "Michael Mendez",
+                        "text": "Green Day",
                         "value": 0
                     },
                     {
-                        "text": "Nick Teller",
+                        "text": "Less Than Jake",
                         "value": 0
                     },
                     {
-                        "text": "Derek Riggs",
+                        "text": "Rancid",
                         "value": 10
                     },
                     {
-                        "text": "Paul Thompson",
+                        "text": "Bad Religion",
                         "value": 0
                     }
                 ]
@@ -744,204 +736,168 @@
             {
                 "id": "006",
                 "type": 1,
-                "question": "'Move in to fire the mainstream of bombers' what song and album are these lyrics from?",
+                "question": "Is 'The hepatitis bathtub and other stories' the title of the autobiographic book of the band?",
                 "answers": [
                     {
-                        "text": "Purgatory from Iron Maiden",
-                        "value": 0
-                    },
-                    {
-                        "text": "Aces High from The Number Of The Beast",
-                        "value": 0
-                    },
-                    {
-                        "text": "Aces High from Powerslave",
+                        "text": "True",
                         "value": 10
                     },
                     {
-                        "text": "El Dorado from The Final Frontier",
-                        "value": 0
-                    },
-                    {
-                        "text": "El Dorado from The Number Of The Beast",
-                        "value": 0
-                    },
-                    {
-                        "text": "Can I Play With Madness from The Book Of Souls",
+                        "text": "False",
                         "value": 0
                     }
                 ]
             },
             {
                 "id": "007",
-                "type": 1,
-                "question": "Which song has these lines: 'There goes the siren that warns of the air raid Then comes the sound of the guns sending flak Out for the scramble we've got to get airborne Got to get up for the coming attack'?",
+                "type": 2,
+                "question": "NOFX is a California punk rock band formed in?",
                 "answers": [
                     {
-                        "text": "Prowler",
-                        "value": 0
-                    },
-                    {
-                        "text": "The Rime Of The Ancient Mariner",
-                        "value": 0
-                    },
-                    {
-                        "text": "Aces High",
+                        "text": "1983",
                         "value": 10
-                    },
-                    {
-                        "text": "Wratchild",
-                        "value": 0
                     }
                 ]
             },
             {
                 "id": "008",
-                "type": 1,
-                "question": "There's one song on 'Brave New World' that was written solely by Steve Harris. Which one is it?",
+                "type": 2,
+                "question": "Complete the title of the song: 'Don't call me ____'",
                 "answers": [
                     {
-                        "text": "Ghost of the Navigator",
-                        "value": 0
-                    },
-                    {
-                        "text": "Out of the Silent Planet",
-                        "value": 0
-                    },
-                    {
-                        "text": "Blood Brothers",
+                        "text": "white",
                         "value": 10
-                    },
-                    {
-                        "text": "The Fallen Angel",
-                        "value": 0
-                    },
-                    {
-                        "text": "The Mercenary",
-                        "value": 0
                     }
                 ]
             },
             {
                 "id": "009",
-                "type": 1,
-                "question": "What song are these lyrics from? 'Now it's burning his hands, he's turning to laugh Smiles as the flames sear his flesh Melting his face, screaming in pain Watch him die according to plan, He's dust on the ground, what did we learn'",
+                "type": 2,
+                "question": "Complete the album name: 'The War on ______'",
                 "answers": [
                     {
-                        "text": "Book Of Souls",
+                        "text": "errorism",
                         "value": 0
-                    },
-                    {
-                        "text": "Dance of Death",
-                        "value": 0
-                    },
-                    {
-                        "text": "Children of the Damned ",
-                        "value": 10
                     }
                 ]
             },
             {
                 "id": "010",
-                "type": 1,
-                "question": "Which musician has not been member of the band?",
+                "type": 2,
+                "question": "In whick album appears the track 'The Moron Brothers'?",
                 "answers": [
                     {
-                        "text": "Tom Araya",
+                        "text": "Ribbed",
                         "value": 3.3
-                    },
-                    {
-                        "text": "Dave Mustaine",
-                        "value": 3.3
-                    },
-                    {
-                        "text": "Brandon Flowers",
-                        "value": 3.3
-                    },
-                    {
-                        "text": "All the above",
-                        "value": 10
                     }
                 ]
             },
             {
                 "id": "011",
-                "type": 1,
-                "question": "If you hear 'He's walking like a dead man, if he had lived he would have crucified us all' then, Children Of The Damned will been played?",
+                "type": 2,
+                "question": "How many studio albums have Nofx released until today?",
                 "answers": [
                     {
-                        "text": "true",
+                        "text": "13",
                         "value": 10
-                    },
-                    {
-                        "text": "false",
-                        "value": 0
                     }
                 ]
             },
             {
                 "id": "012",
-                "type": 1,
-                "question": "Does Nicko McBrain have a Rib restuarent in Brasil?",
+                "type": 2,
+                "question": "Complete Mike's nickname: ___ Mike",
                 "answers": [
                     {
-                        "text": "true",
-                        "value": 0
-                    },
-                    {
-                        "text": "false",
+                        "text": "fat",
                         "value": 10
                     }
                 ]
             },
             {
                 "id": "013",
-                "type": 1,
-                "question": "Is Steve Harris a profesional Fencer?",
+                "type": 2,
+                "question": "Complete the album name __________ animation",
                 "answers": [
                     {
-                        "text": "true",
+                        "text": "libreal",
                         "value": 0
-                    },
-                    {
-                        "text": "false",
-                        "value": 10
                     }
                 ]
             },
             {
                 "id": "014",
-                "type": 1,
-                "question": "Is Bruce Dickinson a airline pilot?",
+                "type": 3,
+                "question": "Which of these bands have played with NOFX in the 'Punk in Drublic Music Festival?",
                 "answers": [
                     {
-                        "text": "true",
-                        "value": 10
+                        "text": "Bad Religion",
+                        "value": 3.3
                     },
                     {
-                        "text": "false",
+                        "text": "Less Than Jake",
+                        "value": 3.3
+                    },
+                    {
+                        "text": "Rancid",
+                        "value": 0
+                    },
+                    {
+                        "text": "Misfits",
+                        "value": 0
+                    },
+                    {
+                        "text": "Bad Cop Bad Cop",
+                        "value": 3.3
+                    },
+                    {
+                        "text": "Sum 41",
                         "value": 0
                     }
                 ]
             },
             {
-                "id": "015",
-                "type": 1,
+                "id": "Whick of these are not NOFX Albums?",
+                "type": 3,
                 "question": "Bruce Dickinson ever left the band?",
                 "answers": [
                     {
-                        "text": "true",
-                        "value": 10
+                        "text": "Toxicity",
+                        "value": 2.5
                     },
                     {
-                        "text": "false",
+                        "text": "Wolves in Wolves Clothing",
+                        "value": 0
+                    },
+                    {
+                        "text": "Dookie",
+                        "value": 2.5
+                    },
+                    {
+                        "text": "Pleasure To Kill",
+                        "value": 2.5
+                    },
+                    {
+                        "text": "Punk In Drublic",
+                        "value": 0
+                    },
+                    {
+                        "text": "Is This It",
+                        "value": 2.5
+                    },
+                    {
+                        "text": "Ribbed",
+                        "value": 0
+                    },
+                    {
+                        "text": "Self Entitled",
                         "value": 0
                     }
                 ]
             },
             {
                 "id": "016",
-                "type": 1,
+                "type": 3,
                 "question": "Is Steve Harris a West Ham Utd fan?",
                 "answers": [
                     {
@@ -956,290 +912,24 @@
             },
             {
                 "id": "017",
-                "type": 1,
-                "question": "Is any member of the band in a side project?",
-                "answers": [
-                    {
-                        "text": "true",
-                        "value": 10
-                    },
-                    {
-                        "text": "false",
-                        "value": 0
-                    }
-                ]
-            },
-            {
-                "id": "018",
-                "type": 1,
-                "question": "The X Factor album came out in 1010?",
-                "answers": [
-                    {
-                        "text": "true",
-                        "value": 0
-                    },
-                    {
-                        "text": "false",
-                        "value": 10
-                    }
-                ]
-            },
-            {
-                "id": "019",
-                "type": 1,
-                "question": "Is Blaze Bayley a band member?",
-                "answers": [
-                    {
-                        "text": "true",
-                        "value": 0
-                    },
-                    {
-                        "text": "false",
-                        "value": 10
-                    }
-                ]
-            },
-            {
-                "id": "020",
-                "type": 2,
-                "question": "Complete the album name Somewhere In _____ ",
-                "answers": [
-                    {
-                        "text": "time",
-                        "value": 10
-                    }
-                ]
-            },
-            {
-                "id": "021",
-                "type": 2,
-                "question": "Complete the lyrics '...Tomorrow comes tomorrow goes but the ______ remains the same... ",
-                "answers": [
-                    {
-                        "text": "cloud",
-                        "value": 10
-                    }
-                ]
-            },
-            {
-                "id": "022",
-                "type": 2,
-                "question": "Complete the band member name: ____ Murray",
-                "answers": [
-                    {
-                        "text": "dave",
-                        "value": 10
-                    }
-                ]
-            },
-            {
-                "id": "023",
-                "type": 2,
-                "question": "Complete the song name: The Man Who Would Be _______",
-                "answers": [
-                    {
-                        "text": "king",
-                        "value": 10
-                    }
-                ]
-            },
-            {
-                "id": "024",
-                "type": 2,
-                "question": "Type the release year of The Final Frontier Album ",
-                "answers": [
-                    {
-                        "text": "1010",
-                        "value": 10
-                    }
-                ]
-            },
-            {
-                "id": "025",
-                "type": 2,
-                "question": "Whats The number of the Iron Maiden plane 'Ed Force One'?",
-                "answers": [
-                    {
-                        "text": "666",
-                        "value": 10
-                    }
-                ]
-            },
-            {
-                "id": "026",
-                "type": 2,
-                "question": "Complete the name: Eddie The _____ ",
-                "answers": [
-                    {
-                        "text": "head",
-                        "value": 10
-                    }
-                ]
-            },
-            {
-                "id": "027",
-                "type": 2,
-                "question": "'I'm gonna organise some changes in my life,I'm gonna exorcise the demons of my ____ ....'",
-                "answers": [
-                    {
-                        "text": "past",
-                        "value": 10
-                    }
-                ]
-            },
-            {
-                "id": "028",
-                "type": 2,
-                "question": "Complete the member name ______ Gers",
-                "answers": [
-                    {
-                        "text": "janick",
-                        "value": 10
-                    }
-                ]
-            },
-            {
-                "id": "029",
-                "type": 2,
-                "question": "Complete the song title Rime of The _____ Mariner ",
-                "answers": [
-                    {
-                        "text": "ancient",
-                        "value": 10
-                    }
-                ]
-            },
-            {
-                "id": "030",
-                "type": 2,
-                "question": "Complete the song title Can I ___ With Madness ",
-                "answers": [
-                    {
-                        "text": "play",
-                        "value": 10
-                    }
-                ]
-            },
-            {
-                "id": "031",
                 "type": 3,
-                "question": "The Brave New World album represents the return of? ",
+                "question": "Which of these cities appear in the NOFX documental Backstage Passport",
                 "answers": [
                     {
-                        "text": "Bruce Dickinson",
+                        "text": "Rio de Janeiro",
                         "value": 5
                     },
                     {
-                        "text": "Paul Di Anno",
-                        "value": 0
-                    },
-                    {
-                        "text": "Adrian Smith",
+                        "text": "Guayaquil",
                         "value": 5
                     },
                     {
-                        "text": "Clive Burr ",
+                        "text": "Brasilia",
                         "value": 0
                     },
                     {
-                        "text": "Dennis Straton",
+                        "text": "Cali",
                         "value": 0
-                    }
-                ]
-            },
-            {
-                "id": "032",
-                "type": 3,
-                "question": "Tailgunner was written by?",
-                "answers": [
-                    {
-                        "text": "Steve Harris",
-                        "value": 5
-                    },
-                    {
-                        "text": "Bruce Dickinson",
-                        "value": 5
-                    },
-                    {
-                        "text": "Dave Murray",
-                        "value": 0
-                    }
-                ]
-            },
-            {
-                "id": "033",
-                "type": 3,
-                "question": "Whick are former members of the band",
-                "answers": [
-                    {
-                        "text": "Paul Di Anno",
-                        "value": 3.3
-                    },
-                    {
-                        "text": "Blaze Bayley",
-                        "value": 3.3
-                    },
-                    {
-                        "text": "Clive Burr",
-                        "value": 3.3
-                    },
-                    {
-                        "text": "Steve Divko",
-                        "value": 0
-                    },
-                    {
-                        "text": "Austin Lombardo",
-                        "value": 0
-                    }
-                ]
-            },
-            {
-                "id": "034",
-                "type": 3,
-                "question": "Which songs from the No Prayer For The Dying album were written by Dave Murray",
-                "answers": [
-                    {
-                        "text": "Tailgunner",
-                        "value": 0
-                    },
-                    {
-                        "text": "Holy Smoke",
-                        "value": 0
-                    },
-                    {
-                        "text": "No Prayer for the Dying",
-                        "value": 0
-                    },
-                    {
-                        "text": "Public Enema Number One",
-                        "value": 5
-                    },
-                    {
-                        "text": "Fates Warning",
-                        "value": 5
-                    },
-                    {
-                        "text": "Children of the Damned ",
-                        "value": 0
-                    }
-                ]
-            },
-            {
-                "id": "035",
-                "type": 3,
-                "question": "Which former Iron Maiden members also played in the band 'Samson'?",
-                "answers": [
-                    {
-                        "text": "Steve Harris",
-                        "value": 0
-                    },
-                    {
-                        "text": "Bruce Dickinson",
-                        "value": 5
-                    },
-                    {
-                        "text": "Clive Burr",
-                        "value": 5
                     }
                 ]
             }
