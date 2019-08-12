@@ -8,11 +8,14 @@ const fname = document.getElementById("fname");
 const lname = document.getElementById("lname");
 
 //Data Structures
-var quizzes = [];
-var currentQuiz;
-var currentStudent;
-var isLnameFilled = checkEmptyInput(lname);
-var isFnameFilled = checkEmptyInput(fname)
+window.app = (function () {
+    var quizzes = [];
+    var currentQuiz;
+    var currentStudent;
+    var isLnameFilled = checkEmptyInput(lname);
+    var isFnameFilled = checkEmptyInput(fname);
+
+}());
 updateStartBtn();
 //Entities
 function Quiz(object) {
@@ -37,6 +40,8 @@ function Student(fname,lname,quiz){
     this.fname = fname;
     this.lname = lname;
     this.quiz = quiz;
+    this.answers = [];
+    this.score = 0;
 }
 
 Quiz.prototype.instanceExercises = function (exercises) {
@@ -134,23 +139,21 @@ function printExercises() {
 
 
 function updateStartBtn(){
-    console.log(isFnameFilled+" "+isLnameFilled);
     quizButton.disabled = !(isFnameFilled && isLnameFilled);
 }
 //Events
 quizButton.onclick = function () {
     currentQuiz = quizzes[selectQuiz.value];
-    printExercises();
-}
-
-quizButton.onclick = function () {
-    let confirmMessage;
-    confirmMessage += fname.value +" "+ lname.value;
+    let confirmMessage = "";
+    confirmMessage += fname.value +""+ lname.value;
     confirmMessage = addEndLineBreak(confirmMessage);
-    confirmMessage += "Vas a iniciar el quiz:";
+    confirmMessage += "You are going ot start the quiz:";
     confirmMessage = addEndLineBreak(confirmMessage); 
-    confirmMessage += "ye ye ye";
-    confirm(confirmMessage);
+    confirmMessage += currentQuiz.subject;
+    if (confirm(confirmMessage) ){
+        currentStudent = new Student(fname.value,lname.value,currentQuiz);
+        printExercises();
+    }
 }
 
 fname.oninput = function(){
